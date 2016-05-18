@@ -31,5 +31,6 @@ logging:
     rotateeverybytes: 10485760 # = 10MB
 "@ | Set-Content $filebeat_yml -encoding UTF8}
 
+CreateFilebeatYmlFile
 cd $filebeat_dir
 ./filebeat.exe -c $filebeat_yml
