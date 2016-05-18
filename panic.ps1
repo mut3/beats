@@ -4,7 +4,7 @@ param (
 
 
 $filebeat_dir = "C:\Program Files\Elastic\filebeat"
-$filebeat_yml = "$install_dir\filebeat-panic.yml"
+$filebeat_yml = "$filebeat_dir\filebeat-panic.yml"
 
 Function CreateFilebeatYmlFile {@"
 filebeat:
