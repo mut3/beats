@@ -56,6 +56,7 @@ filebeat:
       exclude_files: ['^L:\\Octopus\\.*','^L:\\smtp\\.*']
       scan_frequency: 20s
       ignore_older: 24h
+      close_older: 24h
   registry_file: "C:/ProgramData/filebeat/registry"
 output:
   logstash:
